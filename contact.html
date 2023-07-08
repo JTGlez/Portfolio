@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JTGlez</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="assets/css/reset.css" rel="stylesheet"/>
+    <link href="assets/css/normalize.css" rel="stylesheet"/>
+    <link href="./assets/css/headbar.css" rel="stylesheet"/>
+    <link href="./assets/css/navbar.css" rel="stylesheet"/>
+    <link href="./assets/css/title.css" rel="stylesheet"/>
+    <link href="./assets/css/banner.css" rel="stylesheet"/>
+    <link href="./assets/css/skills.css" rel="stylesheet"/>
+    <link href="./assets/css/experiencia.css" rel="stylesheet"/>
+    <link href="./assets/css/footer.css" rel="stylesheet"/>
+    <link href="./assets/css/fade.css" rel="stylesheet">
+    <link href="./assets/css/formcontacto.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Sección del Menú  -->
+    <header class="headbar" id = "navbar">
+        <img src="assets/img/jtglezl2.png" alt="" class="logo">
+        <nav class="navbar">
+            <ul class="navbar__lista">
+                <li class="navbar__item"><a href="index.html#Home" class="navbar__link">Home</a></li>
+                <li class="navbar__item"><a href="index.html#AboutMe" class="navbar__link">About Me</a></li>
+                <li class="navbar__item"><a href="index.html#Projects" class="navbar__link">Projects</a></li>
+                <li class="navbar__item"><a href="contact.html" class="navbar__link">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Contacto -->
+    <section class="formcontacto">
+        <div class="formcontacto__text">
+            <h2 class="formcontacto__title">Contacto</h2>
+            <h3 class="formcontacto__subtext">¿Quieres contactarme?</h3><br>
+            <h3 class="formcontacto__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
+            <img class="formcontacto__img" src="assets/img/email.png" alt="">
+
+            <div class="row">
+                <form class="col-xs-4 col-xs-offset-4" id="form" action="https://formsubmit.co/jorgeltgonzalez@gmail.com" method="POST">
+                    <div class="formcontacto__form">
+                        <input class="formcontacto__input" type="text" name="name" id = "name" autofocus required autocomplete="off">
+                        <label class="floating-label">Name</label>
+                    </div>
+
+                    <div class="formcontacto__form">
+                        <input class="formcontacto__input" type="text" name="email" id = "email" autofocus required autocomplete="off">
+                        <label class="floating-label">Email</label>
+                    </div>
+
+                    <div class="formcontacto__form">
+                        <input class="formcontacto__input" type="text" name="subject" id = "subject"autofocus required autocomplete="off">
+                        <label class="floating-label">Subject</label>
+                    </div>
+
+                    <div class="formcontacto__form__send">
+                        <textarea class="formcontacto__input" rows="5" cols="40" name="message" id="mensaje" placeholder="Type your message" required></textarea>
+                        <button type="submit" class="formcontacto__boton">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+        <div class = "formcontacto__gif">
+
+            H
+
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer class="footerpage">
+        <a href="" class="footerpage__linkref">Made by JTGlez - 2023 ©</a> <br>
+        <p class="footerpage__copyright">
+            Los créditos de las fotografías pertenecen a sus respectivos autores. ©
+        </p>
+    </footer>
+
+    <script src="assets/js/sticky.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/fade.js"></script>
+    <script src="assets/js/validation.js"></script>
+</body>
+</html>
