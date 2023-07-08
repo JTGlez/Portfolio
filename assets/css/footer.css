@@ -1,4 +1,5 @@
 .footerpage{
+    padding: 1rem;
     display: flex;
     background: linear-gradient(#EAF2FD, rgb(212, 212, 212));
     flex-direction: column;
@@ -6,8 +7,7 @@
 }
 
 .footerpage__linkref{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+    font-weight: 300;
     text-decoration: none;
     transition: 400ms;
     text-align: center;
@@ -19,4 +19,5 @@
 
 .footerpage__copyright{
     text-align: center;
+    font-weight: 300;
 }

@@ -21,6 +21,8 @@
     color: #333333;
 }
 
+
+
 @media screen and (max-width: 587px) {
     .navbar__lista{
         display: none;

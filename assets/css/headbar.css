@@ -1,15 +1,21 @@
 .headbar{
     display: flex;
-    background: #ffffff;
+    background: #fff;
     align-items: center;
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
     position: sticky;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .logo{
     width: 10rem;
     margin-top: -0.1rem;
+}
+
+.sticky {
+    position:sticky;
+    top: 0;
 }
