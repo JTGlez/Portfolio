@@ -17,6 +17,8 @@
     <link href="./assets/css/fade.css" rel="stylesheet">
 </head>
 <body>
+    <!--Para retornar a Home-->
+    <div id = "Home"></div>
 
     <div class="loader_bg">
         <div class="loader"></div>
@@ -27,10 +29,10 @@
         <img src="assets/img/jtglezl2.png" alt="" class="logo">
         <nav class="navbar">
             <ul class="navbar__lista">
-                <li class="navbar__item"><a href="#" class="navbar__link">Inicio</a></li>
-                <li class="navbar__item"><a href="#" class="navbar__link">Semblanza</a></li>
-                <li class="navbar__item"><a href="#" class="navbar__link">Proyectos</a></li>
-                <li class="navbar__item"><a href="#" class="navbar__link">Contacto</a></li>
+                <li class="navbar__item"><a href="#Home" class="navbar__link">Home</a></li>
+                <li class="navbar__item"><a href="#AboutMe" class="navbar__link">About Me</a></li>
+                <li class="navbar__item"><a href="#Proyects" class="navbar__link">Proyects</a></li>
+                <li class="navbar__item"><a href="#Contact" class="navbar__link">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -39,24 +41,25 @@
     <section class="title container">
             <img class="title__profile" src="assets/img/jtglez2.png">
             <div class="title__container">
-                <h2 class="title__bio">¡Hi! My name is Jorge.</h2>
+                <h2 class="title__bio">Hi! My name is Jorge.</h2>
                 <br>
                 <h3 class="title__subsection">Python Developer/Data Analyst</h3>
             
         </div>
 
+        <!--Retorno a AboutMe-->
+        <div id = "AboutMe"></div>
+
         <section class="networks">
             <ul class="networks__list">
                 <!-- Pon los enlaces de tus redes sociales favoritas -->
-                <li class="networks__list__item"><a class = "item__text"  href="">Linkedin <img src="assets/img/arrow.png"></a></li>
-                <li class="networks__list__item"><a class = "item__text"  href="">Github <img src="assets/img/arrow.png"> </a></li>
-                <li class="networks__list__item"><a class = "item__text" href="">Kaggle <img src="assets/img/arrow.png"></a></li>
-                <li class="networks__list__item"><a class = "item__text"href="">Curriculum <img src="assets/img/arrow.png"></a></li>
+                <li class="networks__list__item"><a class = "item__text"  href="https://www.linkedin.com/in/jtglez/">Linkedin <img class ="networks__item__link" src="assets/img/linkedin.png"></a></li>
+                <li class="networks__list__item"><a class = "item__text"  href="https://github.com/JTGlez">Github <img img class ="networks__item__link" src="assets/img/github.png"> </a></li>
+                <li class="networks__list__item"><a class = "item__text" href="https://www.kaggle.com/jtglez" >Kaggle <img img class ="networks__item__link" src="assets/img/kaggle.png"></a></li>
+                <li class="networks__list__item"><a class = "item__text"href="https://drive.google.com/file/d/1d2TEK7lKMSEtwujeNMLISLSzvEkj93Hv/view?usp=sharing">Curriculum <img img class ="networks__item__link" src="assets/img/cv.png"></a></li>
             </ul>
         </section>
     </section>
-
-
 
     <!-- Sección Sobre Mi -->
     <section class="banner">
@@ -116,6 +119,7 @@
         </div>
     </section>
 
+
         <h2 class="skills__title__pc" >Professional Education</h2>
         <!-- Sección de Educación: Reciclo Tech Stack-->
         <section class="skills" id="skills">
@@ -146,16 +150,16 @@
                     </ul>
                 </div>
                 <div class="skills__stack__box">
-                    <ul class="skills__stack__list">
+                    <ul class="skills__stack__list" >
                         <!-- Pon el logotipo de la institución de formación -->
                         <li class="skills__stack__item"><img class = "stack__item__img" src="assets/img/bedu-logo.png"></li>
                         <li class="skills__stack__title"><h4>Bedu</h4></li>
-                        <li class="skills__stack__item__subtitle"><p>Data Scientist</p></li>
+                        <!--Raro, pero funciona para retornar a Proyects-->
+                        <li class="skills__stack__item__subtitle" id = "Proyects"><p>Data Scientist</p></li>
                     </ul>
                 </div>
             </div>
         </section>
-
 
     <!-- Sección de Experiencia Profesional -->
     <section class="experiencia">

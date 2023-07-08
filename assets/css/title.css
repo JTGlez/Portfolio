@@ -28,6 +28,7 @@
 }
 
 .networks__list{
+    display: flex;
     text-align: center;
 }
 
@@ -37,10 +38,29 @@
 }
 
 .item__text{
+    margin: 0 1rem 0 1rem;
+    transition: 400ms;
+}
+
+.item__text:hover{
+    transform: scale(1.2);
+}
+
+.networks__item__link{
+    width: 3rem;
+    height: 3rem;
+
+}
+
+.item__text{
+    display: flex;
     color:gray;
     margin-right: 1.25rem;
     text-decoration: none;
     font-weight: 300;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 
