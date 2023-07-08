@@ -1,0 +1,28 @@
+.navbar__lista{
+    display: flex;
+}
+
+.navbar__item{
+    list-style: none;
+
+}
+
+.navbar__link{
+    color:gray;
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+
+.navbar__link:hover{
+    text-decoration: underline;
+}
+
+.navbar__link.activo{
+    color: #333333;
+}
+
+@media screen and (max-width: 587px) {
+    .navbar__lista{
+        display: none;
+    }
+}

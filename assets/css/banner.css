@@ -1,0 +1,20 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-self: stretch;
+    background: #EAF2FD;
+}
+
+.banner__titulo{
+    text-align: left;
+}
+
+.banner__texto{
+    text-align: justify;
+}
+
+.banner__gif{
+    width: 10rem;
+    align-self: center;
+}

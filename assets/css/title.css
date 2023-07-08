@@ -1,0 +1,48 @@
+/*Define contenedor del título con Flexbox*/
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title__profile{
+    width: 25%;
+    height: 25%;
+    flex-direction: column;
+}
+
+.title__bio{
+    flex-direction: column;
+    text-align: center;
+}
+
+.title__subsection{
+    flex-direction: column;
+    text-align: center;
+    font-weight: 300;
+}
+
+.networks{
+    display: block;
+}
+
+.networks__list{
+    text-align: center;
+}
+
+.networks__list__item{
+    display: inline-block;
+
+}
+
+.item__text{
+    color:gray;
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 769px) {
+    .title__profile{
+        width: 12rem;
+    }
+}

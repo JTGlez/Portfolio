@@ -1,0 +1,39 @@
+.skills{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.skills__stack{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.skills__stack__box {
+    width: 100%;
+}
+
+.skills__stack__list{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    box-shadow: 4px 4px 4px #CCC;
+}
+
+.stack__item__img{
+    width: 6rem;
+    height: 6rem;
+}
+
+.stack__item__img__w{
+    width: 12rem;
+    height: 4rem;
+}
+
+.skills__stack__item__subtitle{
+    padding-bottom: 0.1rem;
+}

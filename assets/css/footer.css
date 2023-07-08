@@ -1,0 +1,22 @@
+.footerpage{
+    display: flex;
+    background: linear-gradient(#EAF2FD, rgb(212, 212, 212));
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerpage__linkref{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 400ms;
+    text-align: center;
+}
+
+.footerpage__linkref:hover{
+    font-size: 18px;
+}
+
+.footerpage__copyright{
+    text-align: center;
+}

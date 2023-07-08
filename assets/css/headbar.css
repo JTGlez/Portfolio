@@ -1,0 +1,14 @@
+.headbar{
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+
+.logo{
+    width: 10rem;
+    margin-top: -0.1rem;
+}
