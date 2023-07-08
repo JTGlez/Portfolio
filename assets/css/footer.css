@@ -1,7 +1,7 @@
 .footerpage{
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
-    background: linear-gradient(#EAF2FD, rgb(212, 212, 212));
+    background: linear-gradient(#EAF2FD, rgb(255, 255, 255));
     flex-direction: column;
     align-items: center;
 }
