@@ -6,6 +6,7 @@
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
+    position: sticky;
 }
 
 .logo{

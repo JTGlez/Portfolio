@@ -1,3 +1,7 @@
+.skills__title__pc{
+    display: none;
+}
+
 .skills{
     display: flex;
     padding: 2rem;
@@ -36,4 +40,44 @@
 
 .skills__stack__item__subtitle{
     padding-bottom: 0.1rem;
+}
+
+@media screen and (min-width: 587px) {
+
+    .skills__title__pc{
+        margin-top: 2rem;
+        display: flex;
+        justify-content:  center;
+    }
+    .skills{
+        height: auto;
+        flex-direction: row;
+        justify-content: space-evenly;
+   
+    }
+    .skills__stack{
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .skills__stack__list{
+        width: 100%;
+        height: 90%;
+    }
+
+    .skills__stack__box {
+        width: 200px;
+        height: 200px;
+    }
+
+    .skills__title{
+        display: none;
+    }
+
+    .skills__stack__item__subtitle{
+        margin: 0 1rem 0 1rem;
+
+    }
 }
