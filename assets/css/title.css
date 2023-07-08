@@ -7,8 +7,8 @@
 }
 
 .title__profile{
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 20%;
     flex-direction: column;
 }
 
@@ -45,6 +45,6 @@
 
 @media screen and (max-width: 769px) {
     .title__profile{
-        width: 12rem;
+        width: 9rem;
     }
 }
