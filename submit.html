@@ -16,6 +16,7 @@
     <link href="./assets/css/footer.css" rel="stylesheet"/>
     <link href="./assets/css/fade.css" rel="stylesheet">
     <link href="./assets/css/formcontacto.css" rel="stylesheet">
+    <link href="./assets/css/submit.css" rel="stylesheet">
 </head>
 <body>
 
@@ -36,45 +37,18 @@
         </nav>
     </header>
 
-    <!-- Sección de Contacto -->
-    <section class="formcontacto">
-        <div class="formcontacto__text">
-            <h2 class="formcontacto__title">Contact</h2>
-            <h3 class="formcontacto__subtext">👋 Would you like to get in touch with me?</h3><br>
-            <h3 class="formcontacto__subtext">Please complete the next form and I'll contact you ASAP.</h3>
-            <img class="formcontacto__img" src="assets/img/email.png" alt="">
+    <section class="submit">
+        <img src="assets/img/email.png" alt="" class="submit__img">
+        <h3 class="submit__text">Thank you! Your message has been sent.</h3>
+        <form action="https://jtglez.github.io/Portfolio" class="submit__return"><input class = "submit__button" type="submit" value ="Return to Home"></form>
+    </section>
 
-            <div class="row">
-                <form class="col-xs-4 col-xs-offset-4" id="form" action="https://formsubmit.co/42bc94db8ca640ee98618f8197a56e5e" method="POST">
-                    <div class="formcontacto__form">
-                        <input class="formcontacto__input" type="text" name="name" id = "name" autofocus required autocomplete="off">
-                        <label class="floating-label">Name</label>
-                    </div>
-
-                    <div class="formcontacto__form">
-                        <input class="formcontacto__input" type="text" name="email" id = "email" autofocus required autocomplete="off">
-                        <label class="floating-label">Email</label>
-                    </div>
-
-                    <div class="formcontacto__form">
-                        <input class="formcontacto__input" type="text" name="subject" id = "subject"autofocus required autocomplete="off">
-                        <label class="floating-label">Subject</label>
-                    </div>
-
-                    <div class="formcontacto__form__send">
-                        <textarea class="formcontacto__input" rows="5" cols="40" name="message" id="mensaje" placeholder="Type your message" required></textarea>
-                        <button type="submit" class="formcontacto__boton">Send</button>
-                    </div>
-                    <input type="hidden" name="_next" value="https://jtglez.github.io/Portfolio/submit.html">
-                </form>
-            </div>
+    <section>
+        <div class="spacing">
         </div>
     </section>
 
-        <div class = "formcontacto__gif">
 
-        </div>
-    </section>
 
 
     <!--Footer-->

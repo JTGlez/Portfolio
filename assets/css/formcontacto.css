@@ -11,6 +11,7 @@
 }
 
 .formcontacto__subtext{
+    margin-top: 0.5rem;
     font-weight: 300;
     text-align: justify;
 }

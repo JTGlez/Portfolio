@@ -16,4 +16,5 @@ document.getElementById('form').addEventListener('submit', function(event) {
 
     console.log("Validado");
     document.getElementById('form').submit()
+    
 });
