@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/JTGlez/Portfolio/assets/68305096/3fddff72-7e97-4cc9-b0c4-463c897d314f" style="width: 75%;">
+  <img src="https://github.com/JTGlez/Portfolio/assets/68305096/3fddff72-7e97-4cc9-b0c4-463c897d314f" style="width: 50%;">
 </div>
 
 <h1 align="center"> Oracle ONE: Portafolio </h1>
