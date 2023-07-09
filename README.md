@@ -16,6 +16,4 @@ Página web construida con HTML, CSS y JS como parte del Proyecto 1 de la ruta F
 - [Jorge González](https://github.com/JTGlez)
 
 ## Referencias
-- [MDL Material Design](https://getmdl.io/templates/)
-- [CryptoJS](https://github.com/brix/crypto-js)
 - [Freepik](https://www.freepik.es/)
