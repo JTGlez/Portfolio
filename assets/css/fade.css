@@ -13,7 +13,7 @@
     height: 150px;
     position: absolute;
     top: 50%;
-    left: 48%;
+    left: 47.2%;
     transform: translate(-50%, -50%);
 }
 
@@ -48,3 +48,11 @@
     }
 }
 
+@media screen and (min-width: 720px) {
+
+    .loader{
+        top: calc(50vh - 75px);
+        left: calc(50vw - 75px);
+    }
+
+}
