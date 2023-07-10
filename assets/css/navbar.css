@@ -11,10 +11,12 @@
     color:gray;
     margin-right: 1.25rem;
     text-decoration: none;
+    transition: 300ms;
 }
 
 .navbar__link:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .navbar__link.activo{
@@ -24,7 +26,13 @@
 
 
 @media screen and (max-width: 587px) {
-    .navbar__lista{
+
+    .navbar__item:nth-child(-n+3) {
         display: none;
     }
+
+    .navbar__item:nth-child(n) {
+        font-weight: 500;
+    }
+
 }
