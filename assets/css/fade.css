@@ -12,9 +12,8 @@
     width: 150px;
     height: 150px;
     position: absolute;
-    top: 50%;
-    left: 46.5%;
-    transform: translate(-50%, -50%);
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
 }
 
 .loader:before, .loader:after {
@@ -48,11 +47,12 @@
     }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 720px) {
 
     .loader{
-        top: calc(50vh - 75px);
-        left: calc(50vw - 75px);
+        top: 50%;
+        left: 46.5%;
+        transform: translate(-50%, -50%);
     }
 
 }
