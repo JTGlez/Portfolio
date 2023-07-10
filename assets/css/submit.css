@@ -41,3 +41,12 @@
 .spacing{
     margin-top: 8rem;
 }
+
+@media screen and (max-width: 587px) {
+
+    .submit__img{
+        width: 50%;
+        height: 50%;
+    }
+
+}
